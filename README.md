@@ -9,6 +9,9 @@ This guide is mostly relevant for individuals located in Denmark, who have Looad
 - a sensor for the current Grid import/export power (in Watts) with update frequency of 10 seconds or faster (In this example sensor.grid_active_power)
 - a sensor for the current charger power (in Watts) with update frequency of 10 seconds or faster (I have included a template sensor for this below, sensor.easee_watts)
 
+# Disclamer
+Please be aware, that we are dealing with template sensors and integral sensors which approximates the energy consumption, so the calculations might not be 100% correct, but it will give you an idea about the amount of energy charged from Solar and from Grid.
+
 # Create Template sensors
 Create the following sensors - The first one is an example of converting Easee Power in kW to W, and adding a 10 second update frequency, which is important for the following Integral Helper sensors described in next chapter
 
