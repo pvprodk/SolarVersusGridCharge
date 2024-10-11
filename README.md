@@ -147,6 +147,7 @@ series:
 update_interval: 1min
 ```
 
+#Energy Dashboard
 Add the two sensors as Individual devices to your Energy Dashboard:
 ![image](https://github.com/user-attachments/assets/4a838c3c-6a17-4da8-bc49-0af7c6dc5edb)
 
