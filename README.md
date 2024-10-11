@@ -66,8 +66,11 @@ Note: The reason why we are adding attributes to the sensors is to force Home As
 
 # Create Helpers
 Create two Reimann sum Integral helpers, with the following setup (Based on the two first sensors created above) :
+
+A sensor to calculate the total charging energy
 ![image](https://github.com/user-attachments/assets/c36404b0-3409-48a2-ad52-61450744dfef)
 
+A sensor to calculate the charging energy coming from solar/battery
 ![image](https://github.com/user-attachments/assets/0d4e577c-fba7-4b96-9ac7-b9ec28dc6b86)
 
 Note 1: You can play around with "Trapezodial" or "Left" to see what gives you the most accurate results (depends on update requency etc.)
