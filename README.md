@@ -1,13 +1,13 @@
 # Solar versus Grid Charge
-A Home Assistance guide to calculate Solar vs Grid car charging and thereby estimating the refund of electricity taxes (in Denmark) 
+A Home Assistance guide to calculate Solar vs Grid EV charging and thereby estimating the refund of electricity taxes (in Denmark) 
 
-This guide is mostly relevant for individuals located in Denmark, who have Looad (and perhaps upcoming NRGi) subscription and gets a partial refund of the elextricity taxes (Refusion af elafgift) for the amount of car charging from the grid and not from solar.
+This guide is mostly relevant for individuals located in Denmark, who have Looad (and perhaps upcoming NRGi) subscription and gets a partial refund of the elextricity taxes (Refusion af elafgift) for the amount of EV charging from the grid and not from solar.
 
 ![image](https://github.com/user-attachments/assets/d0482b7a-9780-4f34-ad2a-2d1825f84824)
 
 # Prerequisites
 - a sensor for the current Grid import/export power (in Watts) with update frequency of 10 seconds or faster (In this example sensor.grid_active_power)
-- a sensor for the current charger power (in Watts) with update frequency of 10 seconds or faster (I have included a template sensor for this below, sensor.easee_watts)
+- a sensor for the current EVSE power (in Watts) with update frequency of 10 seconds or faster (I have included a template sensor for this below, sensor.easee_watts)
 
 # Disclamer
 Please be aware, that we are dealing with template sensors and integral sensors which approximates the energy consumption, so the calculations might not be 100% correct, but it will give you an idea about the amount of energy charged from Solar and from Grid.
@@ -21,7 +21,7 @@ Add the following to your Template Sensor section:
     - platform: time_pattern
       seconds: /10
   sensor:      
-# A Sensor for the charger power measured in Watts. In this example I convert Easee from kW to W.
+# A Sensor for the EVSE power measured in Watts. In this example I convert Easee from kW to W.
   - name: Easee Watts
     unique_id: easee_watts
     unit_of_measurement: "W"
