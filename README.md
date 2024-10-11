@@ -91,7 +91,7 @@ entities:
   - entity: sensor.charging_from_solar_or_battery_power
   - entity: sensor.charging_energy_total_calculated
   - entity: sensor.charging_energy_solar_calculated
-  - entity: sensor.charging_energy_grid_calculated
+  - entity: sensor.charging_energy_grid_refusion
 ```
 
 ```
@@ -145,7 +145,7 @@ all_series_config:
 series:
   - entity: sensor.charging_energy_solar_calculated
     name: Solar
-  - entity: sensor.charging_energy_grid_calculated
+  - entity: sensor.charging_energy_grid_refusion
     name: Grid
 update_interval: 1min
 ```
