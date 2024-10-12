@@ -156,7 +156,8 @@ Add the two sensors as Individual devices to your Energy Dashboard:
 
 ![image](https://github.com/user-attachments/assets/9201c413-48a1-4d30-9556-b9447e0d419f)
 
-![image](https://github.com/user-attachments/assets/18911e2d-db9e-46bb-96e9-a22f001a9bcd)
+![image](https://github.com/user-attachments/assets/97d83337-6a7d-4734-a9d6-ab5dfab971d7)
+
 
 
 And finally add the Charging Energy Grid sensor to your Cas Consumption like this:
