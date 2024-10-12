@@ -164,7 +164,8 @@ And finally add the Charging Energy Grid sensor to your Cas Consumption like thi
 ![image](https://github.com/user-attachments/assets/4bdbd3d7-de3c-4cb9-a159-1030f470c179)
 
 Then your Energy Sources will calculate the actual costs after refund of the taxes:
-![image](https://github.com/user-attachments/assets/d990b0f8-0393-4226-aceb-425d43716ba6)
+![image](https://github.com/user-attachments/assets/d95c3a01-3d2d-496d-a9db-781a44ecee09)
+
 
 
 
