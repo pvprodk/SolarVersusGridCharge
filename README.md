@@ -33,7 +33,7 @@ Add the following to your Template Sensor section:
       update: "{{ now().second }}"
    
 
-#Calculate how much charging from solar or battery
+# Calculate the charging power from solar and battery
   - name: Charging from Solar or Battery Power
     unique_id: charging_from_solar_or_battery_power
     unit_of_measurement: "W"
@@ -52,7 +52,7 @@ Add the following to your Template Sensor section:
       update: "{{ now().second }}"
 
 
-# Calculate how much charging from grid, these are the two Integral Helpers created in next step, so mind the naming of the sensors.
+# Calculate charging energy from grid, these are the two Integral Helpers created in next step, so mind the naming of the sensors.
   - name: Charging Energy Grid (refusion)
     unique_id: charging_energy_grid_refusion
     unit_of_measurement: "kWh"
