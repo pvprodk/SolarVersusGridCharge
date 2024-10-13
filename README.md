@@ -15,7 +15,7 @@ Please be aware, that we are dealing with template sensors and integral sensors 
 # Create Template sensors
 Create the following sensors - The first one is an example of converting Easee Power in kW to W, and adding a 10 second update frequency, which is important for the following Integral Helper sensors described in next chapter
 
-Add the following to your Template Sensor section:
+Add the following to your **Template Sensor section**:
 ```
 - trigger:
     - platform: time_pattern
