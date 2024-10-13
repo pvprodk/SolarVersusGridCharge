@@ -6,7 +6,7 @@ This guide is mostly relevant for individuals located in Denmark, who have Looad
 ![image](https://github.com/user-attachments/assets/d0482b7a-9780-4f34-ad2a-2d1825f84824)
 
 # Prerequisites
-- a sensor for the current Grid import/export power (in Watts) with update frequency of 10 seconds or faster (In this example sensor.grid_active_power)
+- a sensor for the current Grid import/export power (in Watts) with update frequency of 10 seconds or faster (In this example sensor.grid_active_power) Import with positive values, Export with negative values.
 - a sensor for the current EVSE power (in Watts) with update frequency of 10 seconds or faster (I have included a template sensor for this below, sensor.easee_watts)
 
 # Disclamer
